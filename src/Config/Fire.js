@@ -1,14 +1,14 @@
 import firebase from 'firebase';
 
 var firebaseConfig = {
-    apiKey: "AIzaSyBiuKjygdUbNrOkOlu7zxbY1XtzAoclEyA",
-    authDomain: "time-entry-39065.firebaseapp.com",
-    databaseURL: "https://time-entry-39065.firebaseio.com",
-    projectId: "time-entry-39065",
-    storageBucket: "time-entry-39065.appspot.com",
-    messagingSenderId: "567145100472",
-    appId: "1:567145100472:web:999d535831842fcdecb04d"
-  };
+  apiKey: "AIzaSyCQScpR7ksoDpdR1PcnMg29NK_qu_mdo1I",
+  authDomain: "dev-community-1a663.firebaseapp.com",
+  databaseURL: "https://dev-community-1a663.firebaseio.com",
+  projectId: "dev-community-1a663",
+  storageBucket: "dev-community-1a663.appspot.com",
+  messagingSenderId: "996192299981",
+  appId: "1:996192299981:web:c27b73887cedf1aff6b284"
+};
 
   var fire = firebase.initializeApp(firebaseConfig);
   export default fire;
